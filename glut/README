@@ -1,0 +1,10 @@
+On ubuntu install packages:
+  freeglut3-dev
+or
+  libglut3-dev
+
+Samples:
+  http://www.opengl.org/resources/code/samples/glut_examples/examples/examples.html
+  http://paulyg.f2s.com/prog1.htm
+  Any many more @ google.
+
