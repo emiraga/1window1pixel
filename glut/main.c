@@ -14,15 +14,15 @@ void setPixel(int x, int y, float r, float g, float b) {
   *out = b;
 }
 
-void init (void) {
+void init(void) {
   glClearColor(1.0, 1.0, 1.0, 1.0);
 
   setPixel(10, 10, 1.0f, 0.0f, 0.0f); //red
-  setPixel(10, 20, 0.0f, 1.0f, 0.0f); //blue
-  setPixel(10, 30, 0.0f, 0.0f, 1.0f); //green
+  setPixel(10, 20, 0.0f, 1.0f, 0.0f); //green
+  setPixel(10, 30, 0.0f, 0.0f, 1.0f); //blue
 }
 
-void display ( void ) {
+void display(void) {
   int i,j;
   glClear(GL_COLOR_BUFFER_BIT);
 
